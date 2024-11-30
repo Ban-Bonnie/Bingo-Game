@@ -1,0 +1,150 @@
+.bingoCard{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+.bingoTable,th,td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* characters */
+.bingoChars{
+    font-weight: bold;
+    padding: 30px 40px;
+    background-color: black;
+    font-size: 1.5em;
+   
+}
+.charB{
+    color: hsl(0, 90%, 45%);
+    background-color: whitesmoke;
+}
+
+.charI{
+    color: hsl(41, 90%, 45%);
+    background-color: whitesmoke;
+}
+
+.charN{
+    color: hsl(107, 90%, 45%);
+    background-color: whitesmoke;
+}
+
+.charG{
+    color: hsl(213, 90%, 45%);
+    background-color: whitesmoke;
+}
+
+.charO{
+    color: hsl(305, 90%, 45%);
+    background-color: whitesmoke;
+}
+/* end */
+
+
+.bingoRows td{
+    font-weight: bold;
+    width: 4em;
+    height: 4em;
+    background-color: whitesmoke;
+}
+
+.bingoRows td{
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.bingoRows td:hover{
+    background-color: hsl(0, 0%, 78%);
+}
+
+tr .tickedCard{
+    
+    background-color: hsl(84, 94%, 34%);
+    
+}
+
+
+tr .bingo-won {
+    background-color: hsl(84, 94%, 34%); 
+    color: yellow;
+    font-weight: bold;
+    
+}
+
+/* Display */
+.display{
+    position: absolute;
+    top: 5%;
+    right: 1%;
+    left: 40%;
+    bottom: 45%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    background-color: black;
+    
+}
+
+.numDisplay{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    color: white;
+
+}
+
+.found-number{
+    color: rgb(216, 216, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+
+}
+
+.end-display{
+    color: rgb(250, 250, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4.5em;
+
+}
+
+/* Buttons */
+ .buttons button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.playGameBtn{
+    background-color: hsl(120, 98%, 35%);
+    transition: background-color 0.5s;
+
+}
+.playGameBtn:hover{
+    background-color: hsl(120, 96%, 22%);
+}
+
+.playGameBtn:disabled{
+    background-color: hsl(0, 0%, 16%);
+    color:  hsl(0, 0%, 36%);
+}
+
+.rollBtn{
+    background-color: hsl(271, 95%, 57%);
+    transition: background-color 0.5s;
+}
+
+.rollBtn:hover{
+    background-color: hsl(271, 72%, 43%);
+    
+}
+
+.rollBtn:disabled{
+    background-color: hsl(0, 0%, 16%);
+    color:  hsl(0, 0%, 36%);
+}
+
+
+

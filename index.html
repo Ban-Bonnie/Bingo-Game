@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="bingoCard">
+        <table id="bingoTable" class="bingoTable">
+            <tr class="bingoChars">
+                <th class="charB">B</th>
+                <th class="charI">I</th>
+                <th class="charN">N</th>
+                <th class="charG">G</th>
+                <th class="charO">O</th>
+            </tr>
+            <tr id="row1" class="bingoRows">
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr id="row2" class="bingoRows">
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr id="row3" class="bingoRows">
+                <td>0</td>
+                <td>0</td>
+                <td class="tickedCard">⭐</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr id="row4" class="bingoRows">
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr id="row5" class="bingoRows">
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+
+        </table> 
+    </div>
+    
+    
+    <div class="display" id="display">
+        <h1 id="numDisplay" class="numDisplay">0</h1>
+
+        <div class="buttons">
+            <button id="playGame" class="playGameBtn">Card</button>
+            <button id="roll" class="rollBtn">Start</button>
+        </div>
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
