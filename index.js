@@ -1,11 +1,11 @@
 let playBtn = document.getElementById('playGame');
 let roll = document.getElementById('roll');
 let bingoTable = document.getElementById('bingoTable');
-let inGame = false;
-let isBingo = false;
 let numDisplay = document.getElementById('numDisplay');
 let draws = 0;
 roll.disabled = true;
+let inGame = false;
+let isBingo = false;
 
 let usedNumbers = [0];
 let tickedNumbers = [0];
